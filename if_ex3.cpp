@@ -1,6 +1,3 @@
-// Author: Shu-Yuan Wu
-//CUNY ID#: 12345678
-
 #include <iostream>
 using namespace std;
 

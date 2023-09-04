@@ -1,5 +1,3 @@
-// Author: Shu-Yuan Wu
-
 #include <iostream>
 using namespace std;
 

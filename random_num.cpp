@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib> // library supports the srand() and rand() functions
-#include <ctime> // library supports the time()function
 using namespace std;
 
 int main(){

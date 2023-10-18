@@ -20,16 +20,11 @@ int sumFirst2Digits(int n){
 
 int maxDigit(int x, int y){
 	if (x <= 0) return 0;
-	int max = maxDigit(x/10, y/10);
-	int lastX = x % 10;
-	int lastY = y % 10;
-	if ( lastX > max) {
-		if (lastY > lastX) return lastY;
-		return lastX;
-	} else {
-		if (max > lastY) return max;
-		else return lastY;
-	}
+	int rec = maxDigit(x/10, y/10);
+	int max = x % 10;
+	if (y % 10 > max) max = y % 10;
+	if (rec > max) return rec;
+	return max;
 }
 
 int main() {

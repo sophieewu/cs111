@@ -64,7 +64,7 @@ int main(){
 
 	cout << "There are " << numAboveAvg << " numbers are greater than the average." << endl;
 
-	// Find the greatest number in the 2D array and its index
+	// Find the largest number in the 2D array and its index
 	int max = a[0][0], maxI = 0, maxJ = 0;
 	for (int i = 0; i < r; ++i){
 		for (int j = 0; j < c; ++j){
@@ -75,15 +75,15 @@ int main(){
 			}
 		}
 	}
-	cout << "The greatest number in the array is " << max << " and index is " << "(" << maxI << ", " << maxJ <<")" << endl;
+	cout << "The largest number in the array is " << max << " and index is " << "(" << maxI << ", " << maxJ <<")" << endl;
 	
-	// Find the greatest number for each row in the 2D array
+	// Find the largest number for each row in the 2D array
 	for (int i = 0; i < r; ++i){
 		int rowMax = a[i][0];
 		for (int j = 0; j < c; ++j)
 			if (a[i][j] > rowMax) rowMax = a[i][j];
 
-		cout << "The greatest number in row " << i << " is " << rowMax << endl;
+		cout << "The largest number in row " << i << " is " << rowMax << endl;
 	}
 
 	// Find the smallest number for each column in the 2D array

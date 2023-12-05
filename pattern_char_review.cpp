@@ -5,7 +5,7 @@ int main(){
 	int n = 0;
 	while (!(n > 0 && n < 7)){
 		cout << "Enter a positive integer that is smaller than 7: ";
-		cin >> n;;
+		cin >> n;
 	}
 
 	for (int i = n - 1; i >= 0; --i){

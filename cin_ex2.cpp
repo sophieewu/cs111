@@ -13,7 +13,7 @@ int main(){
     // Prompt user to provide luckyNum
     cout << "What's your lucky number?";
 
-    //Read the value and store it in luckyNum
+    //Read the value and store it in the variable luckyNum
     cin >> luckyNum;
   
     return 0;
